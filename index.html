@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>luna</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>tutorial</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14580,9 +14580,84 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Quick-tutorial/example,-using-Env.-Data-Sci-example-if-possible!">Quick tutorial/example, using Env. Data Sci example if possible!<a class="anchor-link" href="#Quick-tutorial/example,-using-Env.-Data-Sci-example-if-possible!">&#182;</a></h1><ul>
-<li>Okay to incorporate examples found elsewhere (provide link and acknowledgement!)</li>
+<p><img src="./bokeh_logo.png" alt="bokeh_logo.png"></p>
+<h3 id="What-is-it?"><strong>What is it?</strong><a class="anchor-link" href="#What-is-it?">&#182;</a></h3><p>Bokeh is an open-souce Python library for making web-interactive visualizations, including 
+plots, live-streaming plots, and dashboards. Bokeh visualizations and dashboards can be easily embedded into webpages,
+creating smooth and quick-loading interactions, without having to know much JavaScript or importing other packages outside the bokeh system.</p>
+<h3 id="Where-is-it?-Link-to-project-webpage,-github"><strong>Where is it? Link to project webpage, github</strong><a class="anchor-link" href="#Where-is-it?-Link-to-project-webpage,-github">&#182;</a></h3><ul>
+<li>Here is Bokeh's documentation website: <a href="https://docs.bokeh.org/en/latest/">https://docs.bokeh.org/en/latest/</a></li>
+<li>Here is Bokeh's Github Repository: <a href="https://github.com/bokeh/bokeh">https://github.com/bokeh/bokeh</a></li>
 </ul>
+<h3 id="Who-developed-it?"><strong>Who developed it?</strong><a class="anchor-link" href="#Who-developed-it?">&#182;</a></h3><ul>
+<li>Bokeh is open-source, and therefore its code is derived widely and from many communities. 
+However there are "dedicated core developers" that work on Bokeh. About 2-3 core developers 
+dedicate most of their time to Bokeh at a given time. </li>
+</ul>
+<h3 id="Why-was-it-created?"><strong>Why was it created?</strong><a class="anchor-link" href="#Why-was-it-created?">&#182;</a></h3><p>Bokeh was created to help people create interactive visualizations in web browsers, including in Jupyter notebooks. 
+It's especially useful to connect PyData tools (e.g. NumPy, SciPy, Pandas, sklearn, etc) to scalable and deployable web "data apps" with little mucking around in "web tech". 
+This allows people to add interactive elements to websites while working only in Python.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Potential-Use-in-Environmental-Data-Science">Potential Use in Environmental Data Science<a class="anchor-link" href="#Potential-Use-in-Environmental-Data-Science">&#182;</a></h1><ul>
+<li>creating interactive visualizations to communicate information</li>
+<li>allowing people to play with data, seeing impact of manipulating parameters</li>
+<li>engage non-scientists</li>
+</ul>
+<p>Really cool paper about importance of environmental data visualization and best practices!! :</p>
+<blockquote><p>Sam Grainger, Feng Mao, Wouter Buytaert, Environmental data visualisation for non-scientific contexts: Literature review and design framework, Environmental Modelling &amp; Software, Volume 85, 2016, Pages 299-318,ISSN 1364-8152, <a href="https://doi.org/10.1016/j.envsoft.2016.09.004">https://doi.org/10.1016/j.envsoft.2016.09.004</a>.</p>
+</blockquote>
+<p><strong>Real World Example</strong>: <em>Building Energy Efficiency</em></p>
+<blockquote><p>"With regards to my research, a report telling a building owner how much electricity they can save by changing their AC schedule is nice, but it’s more effective to give them an interactive graph where they can choose different schedules and see how their choice affects electricity consumption."</p>
+</blockquote>
+<p><a href="https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4">https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4</a></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Examples">Examples<a class="anchor-link" href="#Examples">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Let's-create-a-simple,-interactive-plot-with-bokeh!">Let's create a simple, interactive plot with bokeh!<a class="anchor-link" href="#Let's-create-a-simple,-interactive-plot-with-bokeh!">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ol>
+<li>ALWAYS start by importing necessary functions:<ul>
+<li>once you start making more complex figures, check out bokeh's documentation for what functions you'll need to import <a href="https://docs.bokeh.org/en/latest/docs/user_guide.html">here</a></li>
+</ul>
+</li>
+</ol>
 
 </div>
 </div>
@@ -14592,12 +14667,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import libraries </span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">show</span>
 </pre></div>
 
      </div>
@@ -14605,38 +14678,94 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ol>
+<li>Make up some data to create a simple line chart:</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ol>
+<li>Set up the figure using the function <code>figure()</code> and add a title and labels</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s1">'bokeh intro plot!'</span><span class="p">,</span>
+           <span class="n">x_axis_label</span> <span class="o">=</span> <span class="s1">'x'</span><span class="p">,</span>
+           <span class="n">y_axis_label</span> <span class="o">=</span> <span class="s1">'y'</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ol>
+<li>Time to add the data using <code>line()</code></li>
+</ol>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># choose data</span>
-<span class="n">olympic_athletes</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'../data/Olympic_Athletes/athlete_events.csv'</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
 
-<span class="c1"># make subset of data with only the medaling teams</span>
-<span class="n">olympic_subset</span> <span class="o">=</span> <span class="n">olympic_athletes</span><span class="p">[</span>
-    <span class="p">[</span><span class="s1">'Name'</span><span class="p">,</span> <span class="s1">'Team'</span><span class="p">,</span> <span class="s1">'Year'</span><span class="p">,</span> <span class="s1">'Event'</span><span class="p">,</span> <span class="s1">'Medal'</span><span class="p">]</span>
-<span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span> <span class="c1"># drop rows with na values</span>
-
-<span class="c1"># # group the data </span>
-<span class="c1"># by_team = olympic_subset.groupby([pd.Grouper(key = 'Year'),</span>
-<span class="c1">#                                  pd.Grouper(key = 'Medal'),</span>
-<span class="c1">#                                  pd.Grouper(key = 'Team')]).count()</span>
-
-<span class="c1"># by_team.head(10)</span>
-
-<span class="c1"># select one country</span>
-<span class="n">china_medals</span> <span class="o">=</span> <span class="n">olympic_subset</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">olympic_subset</span><span class="p">[</span><span class="s1">'Team'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'China'</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Year'</span><span class="p">),</span>
-                                                                              <span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Medal'</span><span class="p">)])</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-
-<span class="n">china_pivot</span> <span class="o">=</span> <span class="n">china_medals</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">index</span> <span class="o">=</span> <span class="s1">'Year'</span><span class="p">,</span>
-                                       <span class="n">columns</span> <span class="o">=</span> <span class="s1">'Medal'</span><span class="p">,</span>
-                                       <span class="n">values</span> <span class="o">=</span> <span class="s1">'Name'</span><span class="p">)</span>
-
-<span class="n">china_medals</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="c1"># Can add more arguments like line_width, legend_label, etc.</span>
 </pre></div>
 
      </div>
@@ -14654,110 +14783,28 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
 
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
+<div style="display: table;"><div style="display: table-row;"><div style="display: table-cell;"><b title="bokeh.models.renderers.glyph_renderer.GlyphRenderer">GlyphRenderer</b>(</div><div style="display: table-cell;">id&nbsp;=&nbsp;'p1543', <span id="p1547" style="cursor: pointer;">&hellip;)</span></div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">coordinates&nbsp;=&nbsp;None,</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">data_source&nbsp;=&nbsp;ColumnDataSource(id='p1537', ...),</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">glyph&nbsp;=&nbsp;Line(id='p1540', ...),</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">group&nbsp;=&nbsp;None,</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">hover_glyph&nbsp;=&nbsp;None,</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">js_event_callbacks&nbsp;=&nbsp;{},</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">js_property_callbacks&nbsp;=&nbsp;{},</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">level&nbsp;=&nbsp;'glyph',</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">muted&nbsp;=&nbsp;False,</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">muted_glyph&nbsp;=&nbsp;Line(id='p1542', ...),</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">name&nbsp;=&nbsp;None,</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">nonselection_glyph&nbsp;=&nbsp;Line(id='p1541', ...),</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">propagate_hover&nbsp;=&nbsp;False,</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">selection_glyph&nbsp;=&nbsp;'auto',</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">subscribed_events&nbsp;=&nbsp;PropertyValueSet(),</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">syncable&nbsp;=&nbsp;True,</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">tags&nbsp;=&nbsp;[],</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">view&nbsp;=&nbsp;CDSView(id='p1544', ...),</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">visible&nbsp;=&nbsp;True,</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">x_range_name&nbsp;=&nbsp;'default',</div></div><div class="p1546" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">y_range_name&nbsp;=&nbsp;'default')</div></div></div>
+<script>
+(function() {
+  let expanded = false;
+  const ellipsis = document.getElementById("p1547");
+  ellipsis.addEventListener("click", function() {
+    const rows = document.getElementsByClassName("p1546");
+    for (let i = 0; i < rows.length; i++) {
+      const el = rows[i];
+      el.style.display = expanded ? "none" : "table-row";
     }
+    ellipsis.innerHTML = expanded ? "&hellip;)" : "&lsaquo;&lsaquo;&lsaquo;";
+    expanded = !expanded;
+  });
+})();
+</script>
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th>Name</th>
-      <th>Team</th>
-      <th>Event</th>
-    </tr>
-    <tr>
-      <th>Year</th>
-      <th>Medal</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="3" valign="top">1984</th>
-      <th>Bronze</th>
-      <td>37</td>
-      <td>37</td>
-      <td>37</td>
-    </tr>
-    <tr>
-      <th>Gold</th>
-      <td>24</td>
-      <td>24</td>
-      <td>24</td>
-    </tr>
-    <tr>
-      <th>Silver</th>
-      <td>13</td>
-      <td>13</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th rowspan="3" valign="top">1988</th>
-      <th>Bronze</th>
-      <td>30</td>
-      <td>30</td>
-      <td>30</td>
-    </tr>
-    <tr>
-      <th>Gold</th>
-      <td>4</td>
-      <td>4</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>Silver</th>
-      <td>16</td>
-      <td>16</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th rowspan="3" valign="top">1992</th>
-      <th>Bronze</th>
-      <td>15</td>
-      <td>15</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>Gold</th>
-      <td>14</td>
-      <td>14</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>Silver</th>
-      <td>44</td>
-      <td>44</td>
-      <td>44</td>
-    </tr>
-    <tr>
-      <th>1994</th>
-      <th>Bronze</th>
-      <td>2</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 </div>
 
 </div>
@@ -14766,31 +14813,32 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ol>
+<li>Check out your plot using <code>show()</code> <ul>
+<li>the output is an .html file which opens in browser</li>
+</ul>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># to use the bokeh library start with this line</span>
-<span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">show</span>
-
-<span class="c1"># create a new plot with a title and axis labels</span>
-<span class="n">p</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Medals Won at the Olympics by China"</span><span class="p">,</span> 
-           <span class="n">x_axis_label</span><span class="o">=</span><span class="s1">'Year'</span><span class="p">,</span> 
-           <span class="n">y_axis_label</span><span class="o">=</span><span class="s1">'Number of Medals'</span><span class="p">)</span>
-
-<span class="c1"># plotting the three lines</span>
-<span class="n">p</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">china_pivot</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> 
-       <span class="n">y</span><span class="o">=</span><span class="n">china_pivot</span><span class="o">.</span><span class="n">Gold</span><span class="p">,</span> <span class="n">legend_label</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="s1">'Gold'</span><span class="p">))</span>
-<span class="n">p</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">china_pivot</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> 
-       <span class="n">y</span><span class="o">=</span><span class="n">china_pivot</span><span class="o">.</span><span class="n">Silver</span><span class="p">,</span> <span class="n">legend_label</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="s1">'Silver'</span><span class="p">))</span>
-<span class="n">p</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">china_pivot</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> 
-       <span class="n">y</span><span class="o">=</span><span class="n">china_pivot</span><span class="o">.</span><span class="n">Bronze</span><span class="p">,</span> <span class="n">legend_label</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="s1">'Bronze'</span><span class="p">))</span>
-
-<span class="n">show</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">show</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14814,7 +14862,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
 
-  <div id="dd69983d-7a15-4df2-b112-48bd74a8ca5d" data-root-id="p2047" style="display: contents;"></div>
+  <div id="d0c2736d-9c05-4775-b877-702418ec1a01" data-root-id="p1508" style="display: contents;"></div>
 
 </div>
 
@@ -14829,13 +14877,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 
-<div id="13019a9c-da8c-4859-8fec-b77e51492eac" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="31b470d1-039e-4394-a0db-48fb95b85cb6" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('13019a9c-da8c-4859-8fec-b77e51492eac');
+var element = document.getElementById('31b470d1-039e-4394-a0db-48fb95b85cb6');
 (function(root) {
   function embed_document(root) {
-  const docs_json = {"a39801de-82ea-4ec0-95a3-3dbf4fc80ad9":{"version":"3.2.1","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p2047","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p2048"},"y_range":{"type":"object","name":"DataRange1d","id":"p2049"},"x_scale":{"type":"object","name":"LinearScale","id":"p2057"},"y_scale":{"type":"object","name":"LinearScale","id":"p2058"},"title":{"type":"object","name":"Title","id":"p2050","attributes":{"text":"Medals Won at the Olympics by China"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p2082","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p2076","attributes":{"selected":{"type":"object","name":"Selection","id":"p2077","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2078"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":{"type":"bytes","data":"wAcAAMQHAADIBwAAygcAAMwHAADOBwAA0AcAANIHAADUBwAA1gcAANgHAADaBwAA3AcAAN4HAADgBwAA"},"shape":[15],"dtype":"int32","order":"little"}],["y",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAAAOEAAAAAAAAAQQAAAAAAAACxAAAAAAAAA+H8AAAAAAAAqQAAAAAAAAPh/AAAAAAAAP0AAAAAAAAAAQAAAAAAAAEVAAAAAAAAAAEAAAAAAAABSQAAAAAAAABxAAAAAAAAASUAAAAAAAAAIQAAAAAAAAEZA"},"shape":[15],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p2083","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2084"}}},"glyph":{"type":"object","name":"Line","id":"p2079","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4"}},"nonselection_glyph":{"type":"object","name":"Line","id":"p2080","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"p2081","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.2}}}},{"type":"object","name":"GlyphRenderer","id":"p2093","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p2087","attributes":{"selected":{"type":"object","name":"Selection","id":"p2088","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2089"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":{"type":"bytes","data":"wAcAAMQHAADIBwAAygcAAMwHAADOBwAA0AcAANIHAADUBwAA1gcAANgHAADaBwAA3AcAAN4HAADgBwAA"},"shape":[15],"dtype":"int32","order":"little"}],["y",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAAAKkAAAAAAAAAwQAAAAAAAAEZAAAAAAAAA8D8AAAAAAIBQQAAAAAAAACJAAAAAAAAAM0AAAAAAAAAUQAAAAAAAADtAAAAAAAAACEAAAAAAAIBIQAAAAAAAAPA/AAAAAAAAQ0AAAAAAAAAQQAAAAAAAAD5A"},"shape":[15],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p2094","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2095"}}},"glyph":{"type":"object","name":"Line","id":"p2090","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4"}},"nonselection_glyph":{"type":"object","name":"Line","id":"p2091","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"p2092","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.2}}}},{"type":"object","name":"GlyphRenderer","id":"p2103","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p2097","attributes":{"selected":{"type":"object","name":"Selection","id":"p2098","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2099"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":{"type":"bytes","data":"wAcAAMQHAADIBwAAygcAAMwHAADOBwAA0AcAANIHAADUBwAA1gcAANgHAADaBwAA3AcAAN4HAADgBwAA"},"shape":[15],"dtype":"int32","order":"little"}],["y",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAACAQkAAAAAAAAA+QAAAAAAAAC5AAAAAAAAAAEAAAAAAAAAuQAAAAAAAABRAAAAAAAAALkAAAAAAAAAcQAAAAAAAACpAAAAAAAAAEEAAAAAAAIBIQAAAAAAAABxAAAAAAAAAPUAAAAAAAAAUQAAAAAAAgEFA"},"shape":[15],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p2104","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2105"}}},"glyph":{"type":"object","name":"Line","id":"p2100","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4"}},"nonselection_glyph":{"type":"object","name":"Line","id":"p2101","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"p2102","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p2056","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p2069"},{"type":"object","name":"WheelZoomTool","id":"p2070"},{"type":"object","name":"BoxZoomTool","id":"p2071","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p2072","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p2073"},{"type":"object","name":"ResetTool","id":"p2074"},{"type":"object","name":"HelpTool","id":"p2075"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p2064","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p2065","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p2066"},"axis_label":"Number of Medals","major_label_policy":{"type":"object","name":"AllLabels","id":"p2067"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p2059","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p2060","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p2061"},"axis_label":"Year","major_label_policy":{"type":"object","name":"AllLabels","id":"p2062"}}}],"center":[{"type":"object","name":"Grid","id":"p2063","attributes":{"axis":{"id":"p2059"}}},{"type":"object","name":"Grid","id":"p2068","attributes":{"dimension":1,"axis":{"id":"p2064"}}},{"type":"object","name":"Legend","id":"p2085","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p2086","attributes":{"label":{"type":"value","value":"Gold"},"renderers":[{"id":"p2082"}]}},{"type":"object","name":"LegendItem","id":"p2096","attributes":{"label":{"type":"value","value":"Silver"},"renderers":[{"id":"p2093"}]}},{"type":"object","name":"LegendItem","id":"p2106","attributes":{"label":{"type":"value","value":"Bronze"},"renderers":[{"id":"p2103"}]}}]}}]}}]}};
-  const render_items = [{"docid":"a39801de-82ea-4ec0-95a3-3dbf4fc80ad9","roots":{"p2047":"dd69983d-7a15-4df2-b112-48bd74a8ca5d"},"root_ids":["p2047"]}];
+  const docs_json = {"0ecc442d-7dc3-45cd-8a58-ddaedbe8b2dd":{"version":"3.2.1","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1508","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p1509"},"y_range":{"type":"object","name":"DataRange1d","id":"p1510"},"x_scale":{"type":"object","name":"LinearScale","id":"p1518"},"y_scale":{"type":"object","name":"LinearScale","id":"p1519"},"title":{"type":"object","name":"Title","id":"p1511","attributes":{"text":"bokeh intro plot!"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1543","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1537","attributes":{"selected":{"type":"object","name":"Selection","id":"p1538","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1539"},"data":{"type":"map","entries":[["x",[2,4,3,7,9]],["y",[4,6,3,8,2]]]}}},"view":{"type":"object","name":"CDSView","id":"p1544","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1545"}}},"glyph":{"type":"object","name":"Line","id":"p1540","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4"}},"nonselection_glyph":{"type":"object","name":"Line","id":"p1541","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"p1542","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1517","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1530"},{"type":"object","name":"WheelZoomTool","id":"p1531"},{"type":"object","name":"BoxZoomTool","id":"p1532","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1533","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p1534"},{"type":"object","name":"ResetTool","id":"p1535"},{"type":"object","name":"HelpTool","id":"p1536"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1525","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1526","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1527"},"axis_label":"y","major_label_policy":{"type":"object","name":"AllLabels","id":"p1528"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1520","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1521","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1522"},"axis_label":"x","major_label_policy":{"type":"object","name":"AllLabels","id":"p1523"}}}],"center":[{"type":"object","name":"Grid","id":"p1524","attributes":{"axis":{"id":"p1520"}}},{"type":"object","name":"Grid","id":"p1529","attributes":{"dimension":1,"axis":{"id":"p1525"}}}]}}]}};
+  const render_items = [{"docid":"0ecc442d-7dc3-45cd-8a58-ddaedbe8b2dd","roots":{"p1508":"d0c2736d-9c05-4775-b877-702418ec1a01"},"root_ids":["p1508"]}];
   root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
   }
   if (root.Bokeh !== undefined) {
@@ -14865,34 +14913,188 @@ var element = document.getElementById('13019a9c-da8c-4859-8fec-b77e51492eac');
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="More-Complex-Examples">More Complex Examples<a class="anchor-link" href="#More-Complex-Examples">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import libraries </span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Examples-with-Olympic-Athletes">Examples with Olympic Athletes<a class="anchor-link" href="#Examples-with-Olympic-Athletes">&#182;</a></h1><h3 id="Goal">Goal<a class="anchor-link" href="#Goal">&#182;</a></h3><p>We wanted to make a scatter plot that compared the number of gold, silver, and bronze medals won by a country and show the exact number of medals when you hover over the point on the plot.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">show</span><span class="p">,</span> <span class="n">output_notebook</span>
-<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">HoverTool</span><span class="p">,</span> <span class="n">ColumnDataSource</span>
-<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">Axis</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># choose data</span>
+<span class="n">olympic_athletes</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'../data/Olympic_Athletes/athlete_events.csv'</span><span class="p">)</span>
+
+<span class="c1"># make subset of data with only the medaling teams</span>
+<span class="n">olympic_subset</span> <span class="o">=</span> <span class="n">olympic_athletes</span><span class="p">[</span>
+    <span class="p">[</span><span class="s1">'Name'</span><span class="p">,</span> <span class="s1">'Team'</span><span class="p">,</span> <span class="s1">'Year'</span><span class="p">,</span> <span class="s1">'Event'</span><span class="p">,</span> <span class="s1">'Medal'</span><span class="p">]</span>
+<span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span> <span class="o">=</span> <span class="s1">'Year'</span><span class="p">)</span> <span class="c1"># drop rows with na values</span>
+
+<span class="c1"># select one country -- China</span>
+<span class="n">china_medals</span> <span class="o">=</span> <span class="n">olympic_subset</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">olympic_subset</span><span class="p">[</span><span class="s1">'Team'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'China'</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Year'</span><span class="p">),</span>
+                                                                              <span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Medal'</span><span class="p">)])</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+
+<span class="n">china_pivot</span> <span class="o">=</span> <span class="n">china_medals</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">index</span> <span class="o">=</span> <span class="s1">'Year'</span><span class="p">,</span>
+                                       <span class="n">columns</span> <span class="o">=</span> <span class="s1">'Medal'</span><span class="p">,</span>
+                                       <span class="n">values</span> <span class="o">=</span> <span class="s1">'Name'</span><span class="p">)</span>
+
+<span class="n">china_pivot</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Medal</th>
+      <th>Bronze</th>
+      <th>Gold</th>
+      <th>Silver</th>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1984</th>
+      <td>37.0</td>
+      <td>24.0</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <th>1988</th>
+      <td>30.0</td>
+      <td>4.0</td>
+      <td>16.0</td>
+    </tr>
+    <tr>
+      <th>1992</th>
+      <td>15.0</td>
+      <td>14.0</td>
+      <td>44.0</td>
+    </tr>
+    <tr>
+      <th>1994</th>
+      <td>2.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>1996</th>
+      <td>15.0</td>
+      <td>13.0</td>
+      <td>66.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># to use the bokeh library start with this line</span>
+<span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">show</span><span class="p">,</span> <span class="n">output_notebook</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">HoverTool</span><span class="p">,</span> <span class="n">ColumnDataSource</span><span class="p">,</span> <span class="n">SingleIntervalTicker</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">Axis</span><span class="p">,</span> <span class="n">LinearAxis</span>
 
 <span class="n">source</span> <span class="o">=</span> <span class="n">ColumnDataSource</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="n">china_pivot</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> 
                                     <span class="n">gold</span><span class="o">=</span><span class="n">china_pivot</span><span class="p">[</span><span class="s1">'Gold'</span><span class="p">],</span> 
                                     <span class="n">silver</span><span class="o">=</span><span class="n">china_pivot</span><span class="p">[</span><span class="s1">'Silver'</span><span class="p">],</span> 
                                     <span class="n">bronze</span><span class="o">=</span><span class="n">china_pivot</span><span class="p">[</span><span class="s1">'Bronze'</span><span class="p">]))</span>
 
-<span class="c1">## FH: set tooltips</span>
-
-<span class="c1"># figure = china_pivot['Bronze']</span>
-<span class="c1"># figure.plot(kind='hist', </span>
-<span class="c1">#             title='Distribution of Minutes')</span>
-
-<span class="c1"># create figure, add tooltips feature</span>
+<span class="c1"># create figure</span>
 <span class="n">p</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Medals Won at the Olympics by China"</span><span class="p">,</span> 
            <span class="n">x_axis_label</span><span class="o">=</span><span class="s1">'Year'</span><span class="p">,</span> 
            <span class="n">y_axis_label</span><span class="o">=</span><span class="s1">'Number of Medals'</span><span class="p">,</span>
-           <span class="n">x_axis_type</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="c1"># remove defalt x-axis</span>
+           <span class="n">x_axis_type</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="c1"># remove default x-axis</span>
 
 <span class="c1"># add a circle renderer with</span>
 <span class="c1"># size, color and alpha</span>
@@ -14903,12 +15105,12 @@ var element = document.getElementById('13019a9c-da8c-4859-8fec-b77e51492eac');
 <span class="n">p</span><span class="o">.</span><span class="n">circle</span><span class="p">(</span><span class="s1">'year'</span><span class="p">,</span> <span class="s1">'bronze'</span><span class="p">,</span> 
          <span class="n">size</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s2">"brown"</span><span class="p">,</span> <span class="n">alpha</span> <span class="o">=</span> <span class="mf">0.5</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">,</span> <span class="n">legend_label</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="s1">'Bronze'</span><span class="p">))</span>
 
+<span class="c1"># Specify what shows up when you hover over the point</span>
 <span class="n">hover</span> <span class="o">=</span> <span class="n">HoverTool</span><span class="p">()</span>
 <span class="n">hover</span><span class="o">.</span><span class="n">tooltips</span> <span class="o">=</span> <span class="p">[</span>
     <span class="p">(</span><span class="s2">"(year,gold)"</span><span class="p">,</span> <span class="s2">"(@year, @gold)"</span><span class="p">),</span>
     <span class="p">(</span><span class="s2">"(year,silver)"</span><span class="p">,</span> <span class="s2">"(@year, @silver)"</span><span class="p">),</span>
     <span class="p">(</span><span class="s2">"(year,bronze)"</span><span class="p">,</span> <span class="s2">"(@year, @bronze)"</span><span class="p">),</span>
-
 <span class="p">]</span>
 
 <span class="c1"># Add the hover tool to the plot</span>
@@ -14959,7 +15161,7 @@ var element = document.getElementById('13019a9c-da8c-4859-8fec-b77e51492eac');
     </style>
     <div>
         <a href="https://bokeh.org" target="_blank" class="bk-notebook-logo"></a>
-        <span id="ba8d48a0-b449-4791-b1a8-a8022866ce7d">Loading BokehJS ...</span>
+        <span id="d7f7692f-bdf1-4e87-ac51-d5cc17614d71">Loading BokehJS ...</span>
     </div>
 
 </div>
@@ -14975,9 +15177,9 @@ var element = document.getElementById('13019a9c-da8c-4859-8fec-b77e51492eac');
 
 
 
-<div id="0304f61c-5b8e-4162-99dd-727a4215f9c8" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="720a1d24-8f27-4476-adf8-c89d0f490af5" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('0304f61c-5b8e-4162-99dd-727a4215f9c8');
+var element = document.getElementById('720a1d24-8f27-4476-adf8-c89d0f490af5');
 (function(root) {
   function now() {
     return new Date();
@@ -15135,7 +15337,7 @@ const JS_MIME_TYPE = 'application/javascript';
      "</div>"}};
 
   function display_loaded() {
-    const el = document.getElementById("ba8d48a0-b449-4791-b1a8-a8022866ce7d");
+    const el = document.getElementById("d7f7692f-bdf1-4e87-ac51-d5cc17614d71");
     if (el != null) {
       el.textContent = "BokehJS is loading...";
     }
@@ -15241,7 +15443,7 @@ if (force === true) {
       console.log("Bokeh: BokehJS failed to load within specified timeout.");
       root._bokeh_failed_load = true;
     } else if (force !== true) {
-      const cell = $(document.getElementById("ba8d48a0-b449-4791-b1a8-a8022866ce7d")).parents('.cell').data().cell;
+      const cell = $(document.getElementById("d7f7692f-bdf1-4e87-ac51-d5cc17614d71")).parents('.cell').data().cell;
       cell.output_area.append_execute_result(NB_LOAD_WARNING)
     }
   }
@@ -15270,7 +15472,7 @@ if (force === true) {
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
 
-  <div id="cf5d97ba-36dc-4eb0-82a0-efb997765214" data-root-id="p2116" style="display: contents;"></div>
+  <div id="afb59c05-3b67-4e65-8c04-937ccb80f20a" data-root-id="p1551" style="display: contents;"></div>
 
 </div>
 
@@ -15285,13 +15487,13 @@ if (force === true) {
 
 
 
-<div id="e3948a27-74ef-445d-8d3b-3a10ea0a706d" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="ef494619-96bb-4bf4-ae3b-991ae7b97f21" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('e3948a27-74ef-445d-8d3b-3a10ea0a706d');
+var element = document.getElementById('ef494619-96bb-4bf4-ae3b-991ae7b97f21');
 (function(root) {
   function embed_document(root) {
-  const docs_json = {"5ec5cb73-8362-4966-9b64-29c41426910c":{"version":"3.2.1","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p2116","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p2117"},"y_range":{"type":"object","name":"DataRange1d","id":"p2118"},"x_scale":{"type":"object","name":"LinearScale","id":"p2126"},"y_scale":{"type":"object","name":"LinearScale","id":"p2127"},"title":{"type":"object","name":"Title","id":"p2119","attributes":{"text":"Medals Won at the Olympics by China"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p2146","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p2113","attributes":{"selected":{"type":"object","name":"Selection","id":"p2114","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2115"},"data":{"type":"map","entries":[["year",{"type":"ndarray","array":{"type":"bytes","data":"wAcAAMQHAADIBwAAygcAAMwHAADOBwAA0AcAANIHAADUBwAA1gcAANgHAADaBwAA3AcAAN4HAADgBwAA"},"shape":[15],"dtype":"int32","order":"little"}],["gold",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAAAOEAAAAAAAAAQQAAAAAAAACxAAAAAAAAA+H8AAAAAAAAqQAAAAAAAAPh/AAAAAAAAP0AAAAAAAAAAQAAAAAAAAEVAAAAAAAAAAEAAAAAAAABSQAAAAAAAABxAAAAAAAAASUAAAAAAAAAIQAAAAAAAAEZA"},"shape":[15],"dtype":"float64","order":"little"}],["silver",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAAAKkAAAAAAAAAwQAAAAAAAAEZAAAAAAAAA8D8AAAAAAIBQQAAAAAAAACJAAAAAAAAAM0AAAAAAAAAUQAAAAAAAADtAAAAAAAAACEAAAAAAAIBIQAAAAAAAAPA/AAAAAAAAQ0AAAAAAAAAQQAAAAAAAAD5A"},"shape":[15],"dtype":"float64","order":"little"}],["bronze",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAACAQkAAAAAAAAA+QAAAAAAAAC5AAAAAAAAAAEAAAAAAAAAuQAAAAAAAABRAAAAAAAAALkAAAAAAAAAcQAAAAAAAACpAAAAAAAAAEEAAAAAAAIBIQAAAAAAAABxAAAAAAAAAPUAAAAAAAAAUQAAAAAAAgEFA"},"shape":[15],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p2147","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2148"}}},"glyph":{"type":"object","name":"Circle","id":"p2143","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"gold"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"gold"},"line_alpha":{"type":"value","value":0.5},"fill_color":{"type":"value","value":"gold"},"fill_alpha":{"type":"value","value":0.5},"hatch_color":{"type":"value","value":"gold"},"hatch_alpha":{"type":"value","value":0.5}}},"nonselection_glyph":{"type":"object","name":"Circle","id":"p2144","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"gold"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"gold"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"gold"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"gold"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Circle","id":"p2145","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"gold"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"gold"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"gold"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"gold"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p2157","attributes":{"data_source":{"id":"p2113"},"view":{"type":"object","name":"CDSView","id":"p2158","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2159"}}},"glyph":{"type":"object","name":"Circle","id":"p2154","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"silver"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"silver"},"line_alpha":{"type":"value","value":0.5},"fill_color":{"type":"value","value":"silver"},"fill_alpha":{"type":"value","value":0.5},"hatch_color":{"type":"value","value":"silver"},"hatch_alpha":{"type":"value","value":0.5}}},"nonselection_glyph":{"type":"object","name":"Circle","id":"p2155","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"silver"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"silver"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"silver"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"silver"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Circle","id":"p2156","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"silver"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"silver"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"silver"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"silver"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p2167","attributes":{"data_source":{"id":"p2113"},"view":{"type":"object","name":"CDSView","id":"p2168","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2169"}}},"glyph":{"type":"object","name":"Circle","id":"p2164","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"bronze"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"brown"},"line_alpha":{"type":"value","value":0.5},"fill_color":{"type":"value","value":"brown"},"fill_alpha":{"type":"value","value":0.5},"hatch_color":{"type":"value","value":"brown"},"hatch_alpha":{"type":"value","value":0.5}}},"nonselection_glyph":{"type":"object","name":"Circle","id":"p2165","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"bronze"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"brown"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"brown"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"brown"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Circle","id":"p2166","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"bronze"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"brown"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"brown"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"brown"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p2125","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p2133"},{"type":"object","name":"WheelZoomTool","id":"p2134"},{"type":"object","name":"BoxZoomTool","id":"p2135","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p2136","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p2137"},{"type":"object","name":"ResetTool","id":"p2138"},{"type":"object","name":"HelpTool","id":"p2139"},{"type":"object","name":"HoverTool","id":"p2171","attributes":{"renderers":"auto","tooltips":[["(year,gold)","(@year, @gold)"],["(year,silver)","(@year, @silver)"],["(year,bronze)","(@year, @bronze)"]]}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p2128","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p2129","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p2130"},"axis_label":"Number of Medals","major_label_policy":{"type":"object","name":"AllLabels","id":"p2131"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p2173","attributes":{"ticker":{"type":"object","name":"SingleIntervalTicker","id":"p2172","attributes":{"num_minor_ticks":0,"interval":2}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p2175","attributes":{"use_scientific":false}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p2176"}}}],"center":[{"type":"object","name":"Grid","id":"p2132","attributes":{"dimension":1,"axis":{"id":"p2128"}}},{"type":"object","name":"Legend","id":"p2149","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p2150","attributes":{"label":{"type":"value","value":"Gold"},"renderers":[{"id":"p2146"}]}},{"type":"object","name":"LegendItem","id":"p2160","attributes":{"label":{"type":"value","value":"Silver"},"renderers":[{"id":"p2157"}]}},{"type":"object","name":"LegendItem","id":"p2170","attributes":{"label":{"type":"value","value":"Bronze"},"renderers":[{"id":"p2167"}]}}]}}]}}]}};
-  const render_items = [{"docid":"5ec5cb73-8362-4966-9b64-29c41426910c","roots":{"p2116":"cf5d97ba-36dc-4eb0-82a0-efb997765214"},"root_ids":["p2116"]}];
+  const docs_json = {"7f3711c3-0e7b-4cc9-b6b1-5a528db87136":{"version":"3.2.1","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1551","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p1552"},"y_range":{"type":"object","name":"DataRange1d","id":"p1553"},"x_scale":{"type":"object","name":"LinearScale","id":"p1561"},"y_scale":{"type":"object","name":"LinearScale","id":"p1562"},"title":{"type":"object","name":"Title","id":"p1554","attributes":{"text":"Medals Won at the Olympics by China"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1581","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1548","attributes":{"selected":{"type":"object","name":"Selection","id":"p1549","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1550"},"data":{"type":"map","entries":[["year",{"type":"ndarray","array":{"type":"bytes","data":"wAcAAMQHAADIBwAAygcAAMwHAADOBwAA0AcAANIHAADUBwAA1gcAANgHAADaBwAA3AcAAN4HAADgBwAA"},"shape":[15],"dtype":"int32","order":"little"}],["gold",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAAAOEAAAAAAAAAQQAAAAAAAACxAAAAAAAAA+H8AAAAAAAAqQAAAAAAAAPh/AAAAAAAAP0AAAAAAAAAAQAAAAAAAAEVAAAAAAAAAAEAAAAAAAABSQAAAAAAAABxAAAAAAAAASUAAAAAAAAAIQAAAAAAAAEZA"},"shape":[15],"dtype":"float64","order":"little"}],["silver",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAAAKkAAAAAAAAAwQAAAAAAAAEZAAAAAAAAA8D8AAAAAAIBQQAAAAAAAACJAAAAAAAAAM0AAAAAAAAAUQAAAAAAAADtAAAAAAAAACEAAAAAAAIBIQAAAAAAAAPA/AAAAAAAAQ0AAAAAAAAAQQAAAAAAAAD5A"},"shape":[15],"dtype":"float64","order":"little"}],["bronze",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAACAQkAAAAAAAAA+QAAAAAAAAC5AAAAAAAAAAEAAAAAAAAAuQAAAAAAAABRAAAAAAAAALkAAAAAAAAAcQAAAAAAAACpAAAAAAAAAEEAAAAAAAIBIQAAAAAAAABxAAAAAAAAAPUAAAAAAAAAUQAAAAAAAgEFA"},"shape":[15],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1582","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1583"}}},"glyph":{"type":"object","name":"Circle","id":"p1578","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"gold"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"gold"},"line_alpha":{"type":"value","value":0.5},"fill_color":{"type":"value","value":"gold"},"fill_alpha":{"type":"value","value":0.5},"hatch_color":{"type":"value","value":"gold"},"hatch_alpha":{"type":"value","value":0.5}}},"nonselection_glyph":{"type":"object","name":"Circle","id":"p1579","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"gold"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"gold"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"gold"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"gold"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Circle","id":"p1580","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"gold"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"gold"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"gold"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"gold"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1592","attributes":{"data_source":{"id":"p1548"},"view":{"type":"object","name":"CDSView","id":"p1593","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1594"}}},"glyph":{"type":"object","name":"Circle","id":"p1589","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"silver"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"silver"},"line_alpha":{"type":"value","value":0.5},"fill_color":{"type":"value","value":"silver"},"fill_alpha":{"type":"value","value":0.5},"hatch_color":{"type":"value","value":"silver"},"hatch_alpha":{"type":"value","value":0.5}}},"nonselection_glyph":{"type":"object","name":"Circle","id":"p1590","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"silver"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"silver"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"silver"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"silver"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Circle","id":"p1591","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"silver"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"silver"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"silver"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"silver"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1602","attributes":{"data_source":{"id":"p1548"},"view":{"type":"object","name":"CDSView","id":"p1603","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1604"}}},"glyph":{"type":"object","name":"Circle","id":"p1599","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"bronze"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"brown"},"line_alpha":{"type":"value","value":0.5},"fill_color":{"type":"value","value":"brown"},"fill_alpha":{"type":"value","value":0.5},"hatch_color":{"type":"value","value":"brown"},"hatch_alpha":{"type":"value","value":0.5}}},"nonselection_glyph":{"type":"object","name":"Circle","id":"p1600","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"bronze"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"brown"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"brown"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"brown"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Circle","id":"p1601","attributes":{"x":{"type":"field","field":"year"},"y":{"type":"field","field":"bronze"},"size":{"type":"value","value":10},"line_color":{"type":"value","value":"brown"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"brown"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"brown"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1560","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1568"},{"type":"object","name":"WheelZoomTool","id":"p1569"},{"type":"object","name":"BoxZoomTool","id":"p1570","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1571","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p1572"},{"type":"object","name":"ResetTool","id":"p1573"},{"type":"object","name":"HelpTool","id":"p1574"},{"type":"object","name":"HoverTool","id":"p1606","attributes":{"renderers":"auto","tooltips":[["(year,gold)","(@year, @gold)"],["(year,silver)","(@year, @silver)"],["(year,bronze)","(@year, @bronze)"]]}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1563","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1564","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1565"},"axis_label":"Number of Medals","major_label_policy":{"type":"object","name":"AllLabels","id":"p1566"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1608","attributes":{"ticker":{"type":"object","name":"SingleIntervalTicker","id":"p1607","attributes":{"num_minor_ticks":0,"interval":2}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1610","attributes":{"use_scientific":false}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1611"}}}],"center":[{"type":"object","name":"Grid","id":"p1567","attributes":{"dimension":1,"axis":{"id":"p1563"}}},{"type":"object","name":"Legend","id":"p1584","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p1585","attributes":{"label":{"type":"value","value":"Gold"},"renderers":[{"id":"p1581"}]}},{"type":"object","name":"LegendItem","id":"p1595","attributes":{"label":{"type":"value","value":"Silver"},"renderers":[{"id":"p1592"}]}},{"type":"object","name":"LegendItem","id":"p1605","attributes":{"label":{"type":"value","value":"Bronze"},"renderers":[{"id":"p1602"}]}}]}}]}}]}};
+  const render_items = [{"docid":"7f3711c3-0e7b-4cc9-b6b1-5a528db87136","roots":{"p1551":"afb59c05-3b67-4e65-8c04-937ccb80f20a"},"root_ids":["p1551"]}];
   root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
   }
   if (root.Bokeh !== undefined) {
@@ -15321,6 +15523,947 @@ var element = document.getElementById('e3948a27-74ef-445d-8d3b-3a10ea0a706d');
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Make-subset-for-Germany,-Denmark,-and-Greece">Make subset for Germany, Denmark, and Greece<a class="anchor-link" href="#Make-subset-for-Germany,-Denmark,-and-Greece">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># make subset for germany </span>
+<span class="n">germany_medals</span> <span class="o">=</span> <span class="n">olympic_subset</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">olympic_subset</span><span class="p">[</span><span class="s1">'Team'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'Germany'</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Year'</span><span class="p">),</span>
+                                                                              <span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Medal'</span><span class="p">)])</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="n">germany_hist</span> <span class="o">=</span> <span class="n">germany_medals</span><span class="p">[[</span><span class="s1">'Year'</span><span class="p">,</span> <span class="s1">'Medal'</span><span class="p">,</span> <span class="s1">'Name'</span><span class="p">]]</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'Name'</span> <span class="p">:</span> <span class="s1">'Count'</span><span class="p">})</span>
+
+
+<span class="c1"># make subset for denmark</span>
+<span class="n">denmark_medals</span> <span class="o">=</span> <span class="n">olympic_subset</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">olympic_subset</span><span class="p">[</span><span class="s1">'Team'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'Denmark'</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Year'</span><span class="p">),</span>
+                                                                              <span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Medal'</span><span class="p">)])</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="n">denmark_hist</span> <span class="o">=</span> <span class="n">denmark_medals</span><span class="p">[[</span><span class="s1">'Year'</span><span class="p">,</span> <span class="s1">'Medal'</span><span class="p">,</span> <span class="s1">'Name'</span><span class="p">]]</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'Name'</span> <span class="p">:</span> <span class="s1">'Count'</span><span class="p">})</span>
+
+<span class="c1"># make subset for greece</span>
+<span class="n">greece_medals</span> <span class="o">=</span> <span class="n">olympic_subset</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">olympic_subset</span><span class="p">[</span><span class="s1">'Team'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'Greece'</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Year'</span><span class="p">),</span>
+                                                                              <span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Medal'</span><span class="p">)])</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="n">greece_hist</span> <span class="o">=</span> <span class="n">greece_medals</span><span class="p">[[</span><span class="s1">'Year'</span><span class="p">,</span> <span class="s1">'Medal'</span><span class="p">,</span> <span class="s1">'Name'</span><span class="p">]]</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'Name'</span> <span class="p">:</span> <span class="s1">'Count'</span><span class="p">})</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Simple-Histogram">Simple Histogram<a class="anchor-link" href="#Simple-Histogram">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Function that will map values to colors by creating 'color' column</span>
+<span class="k">def</span> <span class="nf">assign_color</span><span class="p">(</span><span class="n">Medal</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">Medal</span> <span class="o">==</span> <span class="s2">"Gold"</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"#FFD700"</span>
+    <span class="k">elif</span> <span class="n">Medal</span> <span class="o">==</span> <span class="s2">"Silver"</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"#C0C0C0"</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"#CD7F32"</span>
+
+<span class="c1"># Apply the function to create the "Color" column</span>
+<span class="n">germany_hist</span><span class="p">[</span><span class="s1">'Color'</span><span class="p">]</span> <span class="o">=</span> <span class="n">germany_hist</span><span class="p">[</span><span class="s1">'Medal'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">assign_color</span><span class="p">)</span>
+<span class="n">denmark_hist</span><span class="p">[</span><span class="s1">'Color'</span><span class="p">]</span> <span class="o">=</span> <span class="n">germany_hist</span><span class="p">[</span><span class="s1">'Medal'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">assign_color</span><span class="p">)</span>
+<span class="n">greece_hist</span><span class="p">[</span><span class="s1">'Color'</span><span class="p">]</span> <span class="o">=</span> <span class="n">germany_hist</span><span class="p">[</span><span class="s1">'Medal'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">assign_color</span><span class="p">)</span>
+    
+<span class="c1"># this was needed because 'bronze' is not a color recognized by python :)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Importing library's</span>
+<span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">show</span><span class="p">,</span> <span class="n">output_notebook</span>
+
+<span class="n">p</span> <span class="o">=</span> <span class="n">figure</span><span class="p">()</span>
+<span class="n">p</span><span class="o">.</span><span class="n">vbar</span><span class="p">(</span><span class="s1">'Year'</span><span class="p">,</span> <span class="n">top</span><span class="o">=</span><span class="s1">'Count'</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span> <span class="n">fill_alpha</span><span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s1">'Color'</span><span class="p">,</span> <span class="n">source</span> <span class="o">=</span> <span class="n">germany_hist</span><span class="p">)</span>
+
+<span class="n">output_notebook</span><span class="p">()</span>
+<span class="n">show</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<style>
+        .bk-notebook-logo {
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAOkSURBVDiNjZRtaJVlGMd/1/08zzln5zjP1LWcU9N0NkN8m2CYjpgQYQXqSs0I84OLIC0hkEKoPtiH3gmKoiJDU7QpLgoLjLIQCpEsNJ1vqUOdO7ppbuec5+V+rj4ctwzd8IIbbi6u+8f1539dt3A78eXC7QizUF7gyV1fD1Yqg4JWz84yffhm0qkFqBogB9rM8tZdtwVsPUhWhGcFJngGeWrPzHm5oaMmkfEg1usvLFyc8jLRqDOMru7AyC8saQr7GG7f5fvDeH7Ej8CM66nIF+8yngt6HWaKh7k49Soy9nXurCi1o3qUbS3zWfrYeQDTB/Qj6kX6Ybhw4B+bOYoLKCC9H3Nu/leUTZ1JdRWkkn2ldcCamzrcf47KKXdAJllSlxAOkRgyHsGC/zRday5Qld9DyoM4/q/rUoy/CXh3jzOu3bHUVZeU+DEn8FInkPBFlu3+nW3Nw0mk6vCDiWg8CeJaxEwuHS3+z5RgY+YBR6V1Z1nxSOfoaPa4LASWxxdNp+VWTk7+4vzaou8v8PN+xo+KY2xsw6une2frhw05CTYOmQvsEhjhWjn0bmXPjpE1+kplmmkP3suftwTubK9Vq22qKmrBhpY4jvd5afdRA3wGjFAgcnTK2s4hY0/GPNIb0nErGMCRxWOOX64Z8RAC4oCXdklmEvcL8o0BfkNK4lUg9HTl+oPlQxdNo3Mg4Nv175e/1LDGzZen30MEjRUtmXSfiTVu1kK8W4txyV6BMKlbgk3lMwYCiusNy9fVfvvwMxv8Ynl6vxoByANLTWplvuj/nF9m2+PDtt1eiHPBr1oIfhCChQMBw6Aw0UulqTKZdfVvfG7VcfIqLG9bcldL/+pdWTLxLUy8Qq38heUIjh4XlzZxzQm19lLFlr8vdQ97rjZVOLf8nclzckbcD4wxXMidpX30sFd37Fv/GtwwhzhxGVAprjbg0gCAEeIgwCZyTV2Z1REEW8O4py0wsjeloKoMr6iCY6dP92H6Vw/oTyICIthibxjm/DfN9lVz8IqtqKYLUXfoKVMVQVVJOElGjrnnUt9T9wbgp8AyYKaGlqingHZU/uG2NTZSVqwHQTWkx9hxjkpWDaCg6Ckj5qebgBVbT3V3NNXMSiWSDdGV3hrtzla7J+duwPOToIg42ChPQOQjspnSlp1V+Gjdged7+8UN5CRAV7a5EdFNwCjEaBR27b3W890TE7g24NAP/mMDXRWrGoFPQI9ls/MWO2dWFAar/xcOIImbbpA3zgAAAABJRU5ErkJggg==);
+        }
+    </style>
+    <div>
+        <a href="https://bokeh.org" target="_blank" class="bk-notebook-logo"></a>
+        <span id="b1fe4219-a639-4750-a612-c30c6e05d4bc">Loading BokehJS ...</span>
+    </div>
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+<div id="5dc76454-f08b-4da8-8cef-733c593b2994" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<script type="text/javascript">
+var element = document.getElementById('5dc76454-f08b-4da8-8cef-733c593b2994');
+(function(root) {
+  function now() {
+    return new Date();
+  }
+
+  const force = true;
+
+  if (typeof root._bokeh_onload_callbacks === "undefined" || force === true) {
+    root._bokeh_onload_callbacks = [];
+    root._bokeh_is_loading = undefined;
+  }
+
+const JS_MIME_TYPE = 'application/javascript';
+  const HTML_MIME_TYPE = 'text/html';
+  const EXEC_MIME_TYPE = 'application/vnd.bokehjs_exec.v0+json';
+  const CLASS_NAME = 'output_bokeh rendered_html';
+
+  /**
+   * Render data to the DOM node
+   */
+  function render(props, node) {
+    const script = document.createElement("script");
+    node.appendChild(script);
+  }
+
+  /**
+   * Handle when an output is cleared or removed
+   */
+  function handleClearOutput(event, handle) {
+    const cell = handle.cell;
+
+    const id = cell.output_area._bokeh_element_id;
+    const server_id = cell.output_area._bokeh_server_id;
+    // Clean up Bokeh references
+    if (id != null && id in Bokeh.index) {
+      Bokeh.index[id].model.document.clear();
+      delete Bokeh.index[id];
+    }
+
+    if (server_id !== undefined) {
+      // Clean up Bokeh references
+      const cmd_clean = "from bokeh.io.state import curstate; print(curstate().uuid_to_server['" + server_id + "'].get_sessions()[0].document.roots[0]._id)";
+      cell.notebook.kernel.execute(cmd_clean, {
+        iopub: {
+          output: function(msg) {
+            const id = msg.content.text.trim();
+            if (id in Bokeh.index) {
+              Bokeh.index[id].model.document.clear();
+              delete Bokeh.index[id];
+            }
+          }
+        }
+      });
+      // Destroy server and session
+      const cmd_destroy = "import bokeh.io.notebook as ion; ion.destroy_server('" + server_id + "')";
+      cell.notebook.kernel.execute(cmd_destroy);
+    }
+  }
+
+  /**
+   * Handle when a new output is added
+   */
+  function handleAddOutput(event, handle) {
+    const output_area = handle.output_area;
+    const output = handle.output;
+
+    // limit handleAddOutput to display_data with EXEC_MIME_TYPE content only
+    if ((output.output_type != "display_data") || (!Object.prototype.hasOwnProperty.call(output.data, EXEC_MIME_TYPE))) {
+      return
+    }
+
+    const toinsert = output_area.element.find("." + CLASS_NAME.split(' ')[0]);
+
+    if (output.metadata[EXEC_MIME_TYPE]["id"] !== undefined) {
+      toinsert[toinsert.length - 1].firstChild.textContent = output.data[JS_MIME_TYPE];
+      // store reference to embed id on output_area
+      output_area._bokeh_element_id = output.metadata[EXEC_MIME_TYPE]["id"];
+    }
+    if (output.metadata[EXEC_MIME_TYPE]["server_id"] !== undefined) {
+      const bk_div = document.createElement("div");
+      bk_div.innerHTML = output.data[HTML_MIME_TYPE];
+      const script_attrs = bk_div.children[0].attributes;
+      for (let i = 0; i < script_attrs.length; i++) {
+        toinsert[toinsert.length - 1].firstChild.setAttribute(script_attrs[i].name, script_attrs[i].value);
+        toinsert[toinsert.length - 1].firstChild.textContent = bk_div.children[0].textContent
+      }
+      // store reference to server id on output_area
+      output_area._bokeh_server_id = output.metadata[EXEC_MIME_TYPE]["server_id"];
+    }
+  }
+
+  function register_renderer(events, OutputArea) {
+
+    function append_mime(data, metadata, element) {
+      // create a DOM node to render to
+      const toinsert = this.create_output_subarea(
+        metadata,
+        CLASS_NAME,
+        EXEC_MIME_TYPE
+      );
+      this.keyboard_manager.register_events(toinsert);
+      // Render to node
+      const props = {data: data, metadata: metadata[EXEC_MIME_TYPE]};
+      render(props, toinsert[toinsert.length - 1]);
+      element.append(toinsert);
+      return toinsert
+    }
+
+    /* Handle when an output is cleared or removed */
+    events.on('clear_output.CodeCell', handleClearOutput);
+    events.on('delete.Cell', handleClearOutput);
+
+    /* Handle when a new output is added */
+    events.on('output_added.OutputArea', handleAddOutput);
+
+    /**
+     * Register the mime type and append_mime function with output_area
+     */
+    OutputArea.prototype.register_mime_type(EXEC_MIME_TYPE, append_mime, {
+      /* Is output safe? */
+      safe: true,
+      /* Index of renderer in `output_area.display_order` */
+      index: 0
+    });
+  }
+
+  // register the mime type if in Jupyter Notebook environment and previously unregistered
+  if (root.Jupyter !== undefined) {
+    const events = require('base/js/events');
+    const OutputArea = require('notebook/js/outputarea').OutputArea;
+
+    if (OutputArea.prototype.mime_types().indexOf(EXEC_MIME_TYPE) == -1) {
+      register_renderer(events, OutputArea);
+    }
+  }
+  if (typeof (root._bokeh_timeout) === "undefined" || force === true) {
+    root._bokeh_timeout = Date.now() + 5000;
+    root._bokeh_failed_load = false;
+  }
+
+  const NB_LOAD_WARNING = {'data': {'text/html':
+     "<div style='background-color: #fdd'>\n"+
+     "<p>\n"+
+     "BokehJS does not appear to have successfully loaded. If loading BokehJS from CDN, this \n"+
+     "may be due to a slow or bad network connection. Possible fixes:\n"+
+     "</p>\n"+
+     "<ul>\n"+
+     "<li>re-rerun `output_notebook()` to attempt to load from CDN again, or</li>\n"+
+     "<li>use INLINE resources instead, as so:</li>\n"+
+     "</ul>\n"+
+     "<code>\n"+
+     "from bokeh.resources import INLINE\n"+
+     "output_notebook(resources=INLINE)\n"+
+     "</code>\n"+
+     "</div>"}};
+
+  function display_loaded() {
+    const el = document.getElementById("b1fe4219-a639-4750-a612-c30c6e05d4bc");
+    if (el != null) {
+      el.textContent = "BokehJS is loading...";
+    }
+    if (root.Bokeh !== undefined) {
+      if (el != null) {
+        el.textContent = "BokehJS " + root.Bokeh.version + " successfully loaded.";
+      }
+    } else if (Date.now() < root._bokeh_timeout) {
+      setTimeout(display_loaded, 100)
+    }
+  }
+
+  function run_callbacks() {
+    try {
+      root._bokeh_onload_callbacks.forEach(function(callback) {
+        if (callback != null)
+          callback();
+      });
+    } finally {
+      delete root._bokeh_onload_callbacks
+    }
+    console.debug("Bokeh: all callbacks have finished");
+  }
+
+  function load_libs(css_urls, js_urls, callback) {
+    if (css_urls == null) css_urls = [];
+    if (js_urls == null) js_urls = [];
+
+    root._bokeh_onload_callbacks.push(callback);
+    if (root._bokeh_is_loading > 0) {
+      console.debug("Bokeh: BokehJS is being loaded, scheduling callback at", now());
+      return null;
+    }
+    if (js_urls == null || js_urls.length === 0) {
+      run_callbacks();
+      return null;
+    }
+    console.debug("Bokeh: BokehJS not loaded, scheduling load and callback at", now());
+    root._bokeh_is_loading = css_urls.length + js_urls.length;
+
+    function on_load() {
+      root._bokeh_is_loading--;
+      if (root._bokeh_is_loading === 0) {
+        console.debug("Bokeh: all BokehJS libraries/stylesheets loaded");
+        run_callbacks()
+      }
+    }
+
+    function on_error(url) {
+      console.error("failed to load " + url);
+    }
+
+    for (let i = 0; i < css_urls.length; i++) {
+      const url = css_urls[i];
+      const element = document.createElement("link");
+      element.onload = on_load;
+      element.onerror = on_error.bind(null, url);
+      element.rel = "stylesheet";
+      element.type = "text/css";
+      element.href = url;
+      console.debug("Bokeh: injecting link tag for BokehJS stylesheet: ", url);
+      document.body.appendChild(element);
+    }
+
+    for (let i = 0; i < js_urls.length; i++) {
+      const url = js_urls[i];
+      const element = document.createElement('script');
+      element.onload = on_load;
+      element.onerror = on_error.bind(null, url);
+      element.async = false;
+      element.src = url;
+      console.debug("Bokeh: injecting script tag for BokehJS library: ", url);
+      document.head.appendChild(element);
+    }
+  };
+
+  function inject_raw_css(css) {
+    const element = document.createElement("style");
+    element.appendChild(document.createTextNode(css));
+    document.body.appendChild(element);
+  }
+
+  const js_urls = ["https://cdn.bokeh.org/bokeh/release/bokeh-3.2.1.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.2.1.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.2.1.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.2.1.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.2.1.min.js"];
+  const css_urls = [];
+
+  const inline_js = [    function(Bokeh) {
+      Bokeh.set_log_level("info");
+    },
+function(Bokeh) {
+    }
+  ];
+
+  function run_inline_js() {
+    if (root.Bokeh !== undefined || force === true) {
+          for (let i = 0; i < inline_js.length; i++) {
+      inline_js[i].call(root, root.Bokeh);
+    }
+if (force === true) {
+        display_loaded();
+      }} else if (Date.now() < root._bokeh_timeout) {
+      setTimeout(run_inline_js, 100);
+    } else if (!root._bokeh_failed_load) {
+      console.log("Bokeh: BokehJS failed to load within specified timeout.");
+      root._bokeh_failed_load = true;
+    } else if (force !== true) {
+      const cell = $(document.getElementById("b1fe4219-a639-4750-a612-c30c6e05d4bc")).parents('.cell').data().cell;
+      cell.output_area.append_execute_result(NB_LOAD_WARNING)
+    }
+  }
+
+  if (root._bokeh_is_loading === 0) {
+    console.debug("Bokeh: BokehJS loaded, going straight to plotting");
+    run_inline_js();
+  } else {
+    load_libs(css_urls, js_urls, function() {
+      console.debug("Bokeh: BokehJS plotting callback run at", now());
+      run_inline_js();
+    });
+  }
+}(window));
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+
+  <div id="d93e05d6-d68f-4679-a2ba-8def776a0a25" data-root-id="p1616" style="display: contents;"></div>
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+<div id="f06baa51-d25f-4c65-9829-14960733a90f" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<script type="text/javascript">
+var element = document.getElementById('f06baa51-d25f-4c65-9829-14960733a90f');
+(function(root) {
+  function embed_document(root) {
+  const docs_json = {"b53c84dd-fcbc-406e-8802-3270f9977cec":{"version":"3.2.1","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1616","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"p1617"},"y_range":{"type":"object","name":"DataRange1d","id":"p1618"},"x_scale":{"type":"object","name":"LinearScale","id":"p1625"},"y_scale":{"type":"object","name":"LinearScale","id":"p1626"},"title":{"type":"object","name":"Title","id":"p1623"},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1653","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1644","attributes":{"selected":{"type":"object","name":"Selection","id":"p1645","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1646"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMAAAAUAAAAFQAAABYAAAAXAAAAGAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAAIQAAACIAAAAjAAAAJAAAACUAAAAmAAAAJwAAACgAAAApAAAAKgAAACsAAAAsAAAALQAAAC4AAAAvAAAAMAAAADEAAAAyAAAAMwAAADQAAAA1AAAANgAAADcAAAA4AAAAOQAAADoAAAA7AAAAPAAAAD0AAAA+AAAAPwAAAEAAAABBAAAAQgAAAEMAAABEAAAARQAAAEYAAABHAAAASAAAAEkAAABKAAAASwAAAEwAAAA="},"shape":[77],"dtype":"int32","order":"little"}],["Year",{"type":"ndarray","array":{"type":"bytes","data":"aAcAAGgHAABoBwAAbAcAAGwHAABwBwAAcAcAAHAHAAByBwAAcgcAAHIHAAB0BwAAdAcAAHQHAAB4BwAAeAcAAHgHAACIBwAAiAcAAIgHAACMBwAAjAcAAIwHAACQBwAAkAcAAJAHAACgBwAAoAcAAKAHAACkBwAApAcAAKQHAACoBwAAqAcAAKgHAACsBwAArAcAAKwHAADIBwAAyAcAAMgHAADKBwAAygcAAMoHAADMBwAAzAcAAMwHAADOBwAAzgcAAM4HAADQBwAA0AcAANAHAADSBwAA0gcAANIHAADUBwAA1AcAANQHAADWBwAA1gcAANYHAADYBwAA2AcAANgHAADaBwAA2gcAANoHAADcBwAA3AcAANwHAADeBwAA3gcAAN4HAADgBwAA4AcAAOAHAAA="},"shape":[77],"dtype":"int32","order":"little"}],["Medal",{"type":"ndarray","array":["Bronze","Gold","Silver","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver"],"shape":[77],"dtype":"object","order":"little"}],["Count",{"type":"ndarray","array":{"type":"bytes","data":"AgAAABgAAAAFAAAAAQAAAAEAAAAGAAAABAAAAAUAAAAGAAAADgAAAAoAAAAEAAAABAAAAAsAAAAOAAAABgAAABMAAAApAAAAFQAAAA8AAAARAAAACgAAABoAAAA3AAAAXQAAAEgAAAAZAAAABAAAABAAAAAYAAAACgAAABQAAAAUAAAAJgAAACMAAAA1AAAAGQAAACsAAABBAAAAXQAAAEIAAAAGAAAADgAAAAoAAAAtAAAAKgAAACMAAAAGAAAAEAAAAAwAAAA+AAAAHwAAABcAAAAKAAAAEgAAABUAAAA/AAAAKQAAACsAAAAGAAAADwAAABcAAAApAAAAJwAAABAAAAALAAAADQAAABIAAAAWAAAAKwAAABsAAAAHAAAADQAAAAwAAABDAAAALwAAACsAAAA="},"shape":[77],"dtype":"int32","order":"little"}],["Color",{"type":"ndarray","array":["#CD7F32","#FFD700","#C0C0C0","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0"],"shape":[77],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1654","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1655"}}},"glyph":{"type":"object","name":"VBar","id":"p1650","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"fill_color":{"type":"field","field":"Color"},"hatch_color":{"type":"field","field":"Color"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1651","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1652","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1624","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1637"},{"type":"object","name":"WheelZoomTool","id":"p1638"},{"type":"object","name":"BoxZoomTool","id":"p1639","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1640","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p1641"},{"type":"object","name":"ResetTool","id":"p1642"},{"type":"object","name":"HelpTool","id":"p1643"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1632","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1633","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1634"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1635"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1627","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1628","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1629"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1630"}}}],"center":[{"type":"object","name":"Grid","id":"p1631","attributes":{"axis":{"id":"p1627"}}},{"type":"object","name":"Grid","id":"p1636","attributes":{"dimension":1,"axis":{"id":"p1632"}}}]}}]}};
+  const render_items = [{"docid":"b53c84dd-fcbc-406e-8802-3270f9977cec","roots":{"p1616":"d93e05d6-d68f-4679-a2ba-8def776a0a25"},"root_ids":["p1616"]}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    let attempts = 0;
+    const timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+</script>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Important-Side-Note:">Important Side Note:<a class="anchor-link" href="#Important-Side-Note:">&#182;</a></h2><p>When making these plots, we realized that the bars were stacking irregularly meaning that there was overlap. Some solutions that we thought would be good would be to separate the medals so that for each year, there would be up to 3 different bars to compare wins. This however, led us down a rabbit hole that I have not recovered from. I could not figure it out. Another alternative, was to make them stack correctly using vbar_stack. This also proved to be outside of my pay grade of 0 dollars. Did not figure that out either.</p>
+<p>Regardless, we had some fun. Below are some more fun plots using athlete and shark attack data.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Better-Histogram">Better Histogram<a class="anchor-link" href="#Better-Histogram">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># germany </span>
+<span class="n">p1</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Medals Won at the Olympics by Germany"</span><span class="p">,</span> 
+           <span class="n">x_axis_label</span><span class="o">=</span><span class="s1">'Year'</span><span class="p">,</span> 
+           <span class="n">y_axis_label</span><span class="o">=</span><span class="s1">'Number of Medals'</span><span class="p">,</span>
+           <span class="n">x_axis_type</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="c1"># remove default x axis</span>
+           <span class="n">width</span> <span class="o">=</span> <span class="mi">2000</span><span class="p">)</span> <span class="c1"># make width of figure larger</span>
+
+<span class="n">p1</span><span class="o">.</span><span class="n">vbar</span><span class="p">(</span><span class="s1">'Year'</span><span class="p">,</span> <span class="c1"># the column that we want to have on the x axis</span>
+       <span class="n">top</span><span class="o">=</span><span class="s1">'Count'</span><span class="p">,</span> <span class="c1"># the column with the values we want to plot</span>
+       <span class="n">width</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span> <span class="c1"># width of the bars </span>
+       <span class="n">fill_alpha</span><span class="o">=</span> <span class="mi">1</span><span class="p">,</span> 
+       <span class="n">color</span><span class="o">=</span><span class="s1">'Color'</span><span class="p">,</span> <span class="c1"># the column that we want to color in </span>
+       <span class="n">source</span> <span class="o">=</span> <span class="n">germany_hist</span><span class="p">,</span>
+       <span class="n">legend_field</span><span class="o">=</span><span class="s1">'Medal'</span><span class="p">)</span>
+
+<span class="c1"># change axis ticks</span>
+<span class="n">ticker</span> <span class="o">=</span> <span class="n">SingleIntervalTicker</span><span class="p">(</span><span class="n">interval</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="c1"># make year interval on new axis 2</span>
+                              <span class="n">num_minor_ticks</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># set number of ticks between major ticks</span>
+<span class="n">xaxis</span> <span class="o">=</span> <span class="n">LinearAxis</span><span class="p">(</span><span class="n">ticker</span> <span class="o">=</span> <span class="n">ticker</span><span class="p">)</span>
+<span class="n">xaxis</span><span class="o">.</span><span class="n">formatter</span><span class="o">.</span><span class="n">use_scientific</span> <span class="o">=</span> <span class="kc">False</span> <span class="c1"># turns x axis into non-scientific format</span>
+<span class="n">p1</span><span class="o">.</span><span class="n">add_layout</span><span class="p">(</span><span class="n">xaxis</span><span class="p">,</span> <span class="s1">'below'</span><span class="p">)</span> <span class="c1"># identify where new axis should lay</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># denmark</span>
+<span class="n">p2</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Medals Won at the Olympics by Denmark"</span><span class="p">,</span> 
+           <span class="n">x_axis_label</span><span class="o">=</span><span class="s1">'Year'</span><span class="p">,</span> 
+           <span class="n">y_axis_label</span><span class="o">=</span><span class="s1">'Number of Medals'</span><span class="p">,</span>
+           <span class="n">x_axis_type</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="c1"># remove default x axis</span>
+           <span class="n">width</span> <span class="o">=</span> <span class="mi">2000</span><span class="p">)</span> <span class="c1"># make width of figure larger</span>
+
+<span class="n">p2</span><span class="o">.</span><span class="n">vbar</span><span class="p">(</span><span class="s1">'Year'</span><span class="p">,</span> <span class="c1"># the column that we want to have on the x axis</span>
+       <span class="n">top</span><span class="o">=</span><span class="s1">'Count'</span><span class="p">,</span> <span class="c1"># the column with the values we want to plot</span>
+       <span class="n">width</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span> <span class="c1"># width of the bars </span>
+       <span class="n">fill_alpha</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> 
+       <span class="n">color</span><span class="o">=</span><span class="s1">'Color'</span><span class="p">,</span> <span class="c1"># the column that we want to color in </span>
+       <span class="n">source</span> <span class="o">=</span> <span class="n">denmark_hist</span><span class="p">,</span>
+       <span class="n">legend_field</span><span class="o">=</span><span class="s1">'Medal'</span><span class="p">)</span>
+
+<span class="c1"># change axis ticks</span>
+<span class="n">ticker</span> <span class="o">=</span> <span class="n">SingleIntervalTicker</span><span class="p">(</span><span class="n">interval</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="c1"># make year interval on new axis 2</span>
+                              <span class="n">num_minor_ticks</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># set number of ticks between major ticks</span>
+<span class="n">xaxis</span> <span class="o">=</span> <span class="n">LinearAxis</span><span class="p">(</span><span class="n">ticker</span> <span class="o">=</span> <span class="n">ticker</span><span class="p">)</span>
+<span class="n">xaxis</span><span class="o">.</span><span class="n">formatter</span><span class="o">.</span><span class="n">use_scientific</span> <span class="o">=</span> <span class="kc">False</span> <span class="c1"># turns x axis into non-scientific format</span>
+<span class="n">p2</span><span class="o">.</span><span class="n">add_layout</span><span class="p">(</span><span class="n">xaxis</span><span class="p">,</span> <span class="s1">'below'</span><span class="p">)</span> <span class="c1"># identify where new axis should lay</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># greece</span>
+<span class="n">p3</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Medals Won at the Olympics by Greece"</span><span class="p">,</span> 
+           <span class="n">x_axis_label</span><span class="o">=</span><span class="s1">'Year'</span><span class="p">,</span> 
+           <span class="n">y_axis_label</span><span class="o">=</span><span class="s1">'Number of Medals'</span><span class="p">,</span>
+           <span class="n">x_axis_type</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="c1"># remove default x axis</span>
+           <span class="n">width</span> <span class="o">=</span> <span class="mi">2000</span><span class="p">)</span> <span class="c1"># make width of figure larger</span>
+
+<span class="n">p3</span><span class="o">.</span><span class="n">vbar</span><span class="p">(</span><span class="s1">'Year'</span><span class="p">,</span> <span class="c1"># the column that we want to have on the x axis</span>
+       <span class="n">top</span><span class="o">=</span><span class="s1">'Count'</span><span class="p">,</span> <span class="c1"># the column with the values we want to plot</span>
+       <span class="n">width</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span> <span class="c1"># width of the bars </span>
+       <span class="n">fill_alpha</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> 
+       <span class="n">color</span> <span class="o">=</span> <span class="s1">'Color'</span><span class="p">,</span> <span class="c1"># the column that we want to color in </span>
+       <span class="n">source</span> <span class="o">=</span> <span class="n">greece_hist</span><span class="p">,</span>
+       <span class="n">legend_field</span><span class="o">=</span><span class="s1">'Medal'</span><span class="p">)</span>
+
+<span class="c1"># change axis ticks</span>
+<span class="n">ticker</span> <span class="o">=</span> <span class="n">SingleIntervalTicker</span><span class="p">(</span><span class="n">interval</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="c1"># make year interval on new axis 2</span>
+                              <span class="n">num_minor_ticks</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># set number of ticks between major ticks</span>
+<span class="n">xaxis</span> <span class="o">=</span> <span class="n">LinearAxis</span><span class="p">(</span><span class="n">ticker</span> <span class="o">=</span> <span class="n">ticker</span><span class="p">)</span>
+<span class="n">xaxis</span><span class="o">.</span><span class="n">formatter</span><span class="o">.</span><span class="n">use_scientific</span> <span class="o">=</span> <span class="kc">False</span> <span class="c1"># turns x axis into non-scientific format</span>
+<span class="n">p3</span><span class="o">.</span><span class="n">add_layout</span><span class="p">(</span><span class="n">xaxis</span><span class="p">,</span> <span class="s1">'below'</span><span class="p">)</span> <span class="c1"># identify where new axis should lay</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">bokeh.layouts</span> <span class="kn">import</span> <span class="n">row</span><span class="p">,</span> <span class="n">gridplot</span>
+
+<span class="n">show</span><span class="p">(</span><span class="n">gridplot</span><span class="p">([[</span><span class="n">p1</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span> <span class="p">[</span><span class="n">p2</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span> <span class="p">[</span><span class="n">p3</span><span class="p">,</span> <span class="kc">None</span><span class="p">]],</span> <span class="n">width</span><span class="o">=</span> <span class="mi">2000</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">))</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+
+  <div id="e0ca072c-073a-4bf8-9231-e7b9e033c7ba" data-root-id="p1795" style="display: contents;"></div>
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+<div id="af6e572a-9c0b-47d3-b3e5-10f885facd50" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<script type="text/javascript">
+var element = document.getElementById('af6e572a-9c0b-47d3-b3e5-10f885facd50');
+(function(root) {
+  function embed_document(root) {
+  const docs_json = {"adeef609-e941-471a-946c-72df517c801d":{"version":"3.2.1","title":"Bokeh Application","roots":[{"type":"object","name":"GridPlot","id":"p1795","attributes":{"rows":null,"cols":null,"toolbar":{"type":"object","name":"Toolbar","id":"p1794","attributes":{"tools":[{"type":"object","name":"ToolProxy","id":"p1788","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1676"},{"type":"object","name":"PanTool","id":"p1719"},{"type":"object","name":"PanTool","id":"p1762"}]}},{"type":"object","name":"ToolProxy","id":"p1789","attributes":{"tools":[{"type":"object","name":"WheelZoomTool","id":"p1677"},{"type":"object","name":"WheelZoomTool","id":"p1720"},{"type":"object","name":"WheelZoomTool","id":"p1763"}]}},{"type":"object","name":"ToolProxy","id":"p1790","attributes":{"tools":[{"type":"object","name":"BoxZoomTool","id":"p1678","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1679","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"BoxZoomTool","id":"p1721","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1722","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"BoxZoomTool","id":"p1764","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1765","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}}]}},{"type":"object","name":"SaveTool","id":"p1791"},{"type":"object","name":"ToolProxy","id":"p1792","attributes":{"tools":[{"type":"object","name":"ResetTool","id":"p1681"},{"type":"object","name":"ResetTool","id":"p1724"},{"type":"object","name":"ResetTool","id":"p1767"}]}},{"type":"object","name":"ToolProxy","id":"p1793","attributes":{"tools":[{"type":"object","name":"HelpTool","id":"p1682"},{"type":"object","name":"HelpTool","id":"p1725"},{"type":"object","name":"HelpTool","id":"p1768"}]}}]}},"children":[[{"type":"object","name":"Figure","id":"p1659","attributes":{"width":2000,"height":500,"x_range":{"type":"object","name":"DataRange1d","id":"p1660"},"y_range":{"type":"object","name":"DataRange1d","id":"p1661"},"x_scale":{"type":"object","name":"LinearScale","id":"p1669"},"y_scale":{"type":"object","name":"LinearScale","id":"p1670"},"title":{"type":"object","name":"Title","id":"p1662","attributes":{"text":"Medals Won at the Olympics by Germany"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1692","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1683","attributes":{"selected":{"type":"object","name":"Selection","id":"p1684","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1685"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMAAAAUAAAAFQAAABYAAAAXAAAAGAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAAIQAAACIAAAAjAAAAJAAAACUAAAAmAAAAJwAAACgAAAApAAAAKgAAACsAAAAsAAAALQAAAC4AAAAvAAAAMAAAADEAAAAyAAAAMwAAADQAAAA1AAAANgAAADcAAAA4AAAAOQAAADoAAAA7AAAAPAAAAD0AAAA+AAAAPwAAAEAAAABBAAAAQgAAAEMAAABEAAAARQAAAEYAAABHAAAASAAAAEkAAABKAAAASwAAAEwAAAA="},"shape":[77],"dtype":"int32","order":"little"}],["Year",{"type":"ndarray","array":{"type":"bytes","data":"aAcAAGgHAABoBwAAbAcAAGwHAABwBwAAcAcAAHAHAAByBwAAcgcAAHIHAAB0BwAAdAcAAHQHAAB4BwAAeAcAAHgHAACIBwAAiAcAAIgHAACMBwAAjAcAAIwHAACQBwAAkAcAAJAHAACgBwAAoAcAAKAHAACkBwAApAcAAKQHAACoBwAAqAcAAKgHAACsBwAArAcAAKwHAADIBwAAyAcAAMgHAADKBwAAygcAAMoHAADMBwAAzAcAAMwHAADOBwAAzgcAAM4HAADQBwAA0AcAANAHAADSBwAA0gcAANIHAADUBwAA1AcAANQHAADWBwAA1gcAANYHAADYBwAA2AcAANgHAADaBwAA2gcAANoHAADcBwAA3AcAANwHAADeBwAA3gcAAN4HAADgBwAA4AcAAOAHAAA="},"shape":[77],"dtype":"int32","order":"little"}],["Medal",{"type":"ndarray","array":["Bronze","Gold","Silver","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver"],"shape":[77],"dtype":"object","order":"little"}],["Count",{"type":"ndarray","array":{"type":"bytes","data":"AgAAABgAAAAFAAAAAQAAAAEAAAAGAAAABAAAAAUAAAAGAAAADgAAAAoAAAAEAAAABAAAAAsAAAAOAAAABgAAABMAAAApAAAAFQAAAA8AAAARAAAACgAAABoAAAA3AAAAXQAAAEgAAAAZAAAABAAAABAAAAAYAAAACgAAABQAAAAUAAAAJgAAACMAAAA1AAAAGQAAACsAAABBAAAAXQAAAEIAAAAGAAAADgAAAAoAAAAtAAAAKgAAACMAAAAGAAAAEAAAAAwAAAA+AAAAHwAAABcAAAAKAAAAEgAAABUAAAA/AAAAKQAAACsAAAAGAAAADwAAABcAAAApAAAAJwAAABAAAAALAAAADQAAABIAAAAWAAAAKwAAABsAAAAHAAAADQAAAAwAAABDAAAALwAAACsAAAA="},"shape":[77],"dtype":"int32","order":"little"}],["Color",{"type":"ndarray","array":["#CD7F32","#FFD700","#C0C0C0","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0"],"shape":[77],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1693","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1694"}}},"glyph":{"type":"object","name":"VBar","id":"p1689","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"fill_color":{"type":"field","field":"Color"},"hatch_color":{"type":"field","field":"Color"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1690","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1691","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1668","attributes":{"tools":[{"id":"p1676"},{"id":"p1677"},{"id":"p1678"},{"type":"object","name":"SaveTool","id":"p1680"},{"id":"p1681"},{"id":"p1682"}]}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p1671","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1672","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1673"},"axis_label":"Number of Medals","major_label_policy":{"type":"object","name":"AllLabels","id":"p1674"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1698","attributes":{"ticker":{"type":"object","name":"SingleIntervalTicker","id":"p1697","attributes":{"num_minor_ticks":0,"interval":2}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1700","attributes":{"use_scientific":false}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1701"}}}],"center":[{"type":"object","name":"Grid","id":"p1675","attributes":{"dimension":1,"axis":{"id":"p1671"}}},{"type":"object","name":"Legend","id":"p1695","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p1696","attributes":{"label":{"type":"field","field":"Medal"},"renderers":[{"id":"p1692"}]}}]}}]}},0,0],[{"type":"object","name":"Figure","id":"p1702","attributes":{"width":2000,"height":500,"x_range":{"type":"object","name":"DataRange1d","id":"p1703"},"y_range":{"type":"object","name":"DataRange1d","id":"p1704"},"x_scale":{"type":"object","name":"LinearScale","id":"p1712"},"y_scale":{"type":"object","name":"LinearScale","id":"p1713"},"title":{"type":"object","name":"Title","id":"p1705","attributes":{"text":"Medals Won at the Olympics by Denmark"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1735","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1726","attributes":{"selected":{"type":"object","name":"Selection","id":"p1727","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1728"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMAAAAUAAAAFQAAABYAAAAXAAAAGAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAAIQAAACIAAAAjAAAAJAAAACUAAAAmAAAAJwAAACgAAAApAAAAKgAAACsAAAAsAAAALQAAAC4AAAAvAAAAMAAAADEAAAAyAAAAMwAAADQAAAA1AAAANgAAADcAAAA4AAAAOQAAADoAAAA7AAAAPAAAAD0AAAA+AAAAPwAAAEAAAABBAAAAQgAAAEMAAABEAAAARQAAAEYAAABHAAAASAAAAEkAAABKAAAASwAAAEwAAAA="},"shape":[77],"dtype":"int32","order":"little"}],["Year",{"type":"ndarray","array":{"type":"bytes","data":"aAcAAGgHAABoBwAAbAcAAGwHAABsBwAAcgcAAHIHAAByBwAAdAcAAHQHAAB4BwAAeAcAAIAHAACABwAAgAcAAIQHAACEBwAAhAcAAIgHAACIBwAAiAcAAIwHAACMBwAAkAcAAJAHAACcBwAAnAcAAJwHAACgBwAAoAcAAKAHAACkBwAApAcAAKQHAACoBwAAqAcAAKgHAACsBwAArAcAAKwHAACwBwAAsAcAALAHAAC0BwAAuAcAALgHAAC8BwAAvAcAALwHAADABwAAwAcAAMQHAADEBwAAxAcAAMgHAADIBwAAyAcAAMwHAADMBwAAzAcAAM4HAADQBwAA0AcAANAHAADUBwAA1AcAANQHAADYBwAA2AcAANgHAADcBwAA3AcAANwHAADgBwAA4AcAAOAHAAA="},"shape":[77],"dtype":"int32","order":"little"}],["Medal",{"type":"ndarray","array":["Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Silver","Bronze","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Silver","Bronze","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Gold","Bronze","Gold","Bronze","Gold","Silver","Bronze","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver"],"shape":[77],"dtype":"object","order":"little"}],["Count",{"type":"ndarray","array":{"type":"bytes","data":"AwAAAAEAAAACAAAAAgAAAAEAAAADAAAAAQAAAA4AAAATAAAAAwAAAA4AAAAcAAAALgAAAAEAAAAaAAAALAAAAAMAAAACAAAABgAAAAQAAAAGAAAAAQAAAAQAAAAHAAAAAwAAAAMAAAAYAAAABwAAABEAAAAFAAAAAwAAAAEAAAABAAAAAQAAAAEAAAAEAAAAAgAAAAwAAAAEAAAABAAAAAEAAAAGAAAABQAAAAYAAAABAAAABQAAAAMAAAACAAAABAAAAAIAAAAKAAAAAwAAAAMAAAADAAAAAQAAAAkAAAADAAAAAgAAAAEAAAAVAAAAAQAAAAUAAAAEAAAAEgAAAAMAAAAHAAAAEwAAAAEAAAADAAAABgAAAAcAAAAGAAAAAwAAAAUAAAAQAAAADwAAAAoAAAA="},"shape":[77],"dtype":"int32","order":"little"}],["Color",{"type":"ndarray","array":["#CD7F32","#FFD700","#C0C0C0","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0"],"shape":[77],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1736","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1737"}}},"glyph":{"type":"object","name":"VBar","id":"p1732","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"fill_color":{"type":"field","field":"Color"},"hatch_color":{"type":"field","field":"Color"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1733","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1734","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1711","attributes":{"tools":[{"id":"p1719"},{"id":"p1720"},{"id":"p1721"},{"type":"object","name":"SaveTool","id":"p1723"},{"id":"p1724"},{"id":"p1725"}]}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p1714","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1715","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1716"},"axis_label":"Number of Medals","major_label_policy":{"type":"object","name":"AllLabels","id":"p1717"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1741","attributes":{"ticker":{"type":"object","name":"SingleIntervalTicker","id":"p1740","attributes":{"num_minor_ticks":0,"interval":2}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1743","attributes":{"use_scientific":false}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1744"}}}],"center":[{"type":"object","name":"Grid","id":"p1718","attributes":{"dimension":1,"axis":{"id":"p1714"}}},{"type":"object","name":"Legend","id":"p1738","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p1739","attributes":{"label":{"type":"field","field":"Medal"},"renderers":[{"id":"p1735"}]}}]}}]}},1,0],[{"type":"object","name":"Figure","id":"p1745","attributes":{"width":2000,"height":500,"x_range":{"type":"object","name":"DataRange1d","id":"p1746"},"y_range":{"type":"object","name":"DataRange1d","id":"p1747"},"x_scale":{"type":"object","name":"LinearScale","id":"p1755"},"y_scale":{"type":"object","name":"LinearScale","id":"p1756"},"title":{"type":"object","name":"Title","id":"p1748","attributes":{"text":"Medals Won at the Olympics by Greece"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1778","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1769","attributes":{"selected":{"type":"object","name":"Selection","id":"p1770","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1771"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMAAAAUAAAAFQAAABYAAAAXAAAAGAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAAIQAAACIAAAAjAAAAJAAAAA=="},"shape":[37],"dtype":"int32","order":"little"}],["Year",{"type":"ndarray","array":{"type":"bytes","data":"aAcAAGgHAABoBwAAcAcAAHAHAAByBwAAcgcAAHIHAAB0BwAAdAcAAHgHAAB4BwAAgAcAAIQHAACkBwAAsAcAALQHAAC8BwAAvAcAAMAHAADABwAAxAcAAMgHAADMBwAAzAcAANAHAADQBwAA0AcAANQHAADUBwAA1AcAANgHAADYBwAA3AcAAOAHAADgBwAA4AcAAA=="},"shape":[37],"dtype":"int32","order":"little"}],["Medal",{"type":"ndarray","array":["Bronze","Gold","Silver","Bronze","Gold","Bronze","Gold","Silver","Bronze","Silver","Bronze","Gold","Silver","Gold","Bronze","Bronze","Silver","Bronze","Gold","Bronze","Silver","Bronze","Gold","Gold","Silver","Bronze","Gold","Silver","Bronze","Gold","Silver","Bronze","Silver","Bronze","Bronze","Gold","Silver"],"shape":[37],"dtype":"object","order":"little"}],["Count",{"type":"ndarray","array":{"type":"bytes","data":"EgAAAAoAAAAQAAAAAQAAAAEAAAAKAAAABwAAAAsAAAABAAAAAwAAAAEAAAABAAAABQAAAAEAAAABAAAAAQAAAAIAAAAEAAAAAQAAAAEAAAABAAAAAQAAAAIAAAAEAAAABAAAAAgAAAAEAAAABgAAAAUAAAAIAAAAEgAAAAQAAAADAAAAAwAAAAMAAAADAAAAAQAAAA=="},"shape":[37],"dtype":"int32","order":"little"}],["Color",{"type":"ndarray","array":["#CD7F32","#FFD700","#C0C0C0","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700","#C0C0C0","#CD7F32","#FFD700"],"shape":[37],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1779","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1780"}}},"glyph":{"type":"object","name":"VBar","id":"p1775","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"fill_color":{"type":"field","field":"Color"},"hatch_color":{"type":"field","field":"Color"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1776","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1777","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.75},"top":{"type":"field","field":"Count"},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1754","attributes":{"tools":[{"id":"p1762"},{"id":"p1763"},{"id":"p1764"},{"type":"object","name":"SaveTool","id":"p1766"},{"id":"p1767"},{"id":"p1768"}]}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p1757","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1758","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1759"},"axis_label":"Number of Medals","major_label_policy":{"type":"object","name":"AllLabels","id":"p1760"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1784","attributes":{"ticker":{"type":"object","name":"SingleIntervalTicker","id":"p1783","attributes":{"num_minor_ticks":0,"interval":2}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1786","attributes":{"use_scientific":false}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1787"}}}],"center":[{"type":"object","name":"Grid","id":"p1761","attributes":{"dimension":1,"axis":{"id":"p1757"}}},{"type":"object","name":"Legend","id":"p1781","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p1782","attributes":{"label":{"type":"field","field":"Medal"},"renderers":[{"id":"p1778"}]}}]}}]}},2,0]]}}]}};
+  const render_items = [{"docid":"adeef609-e941-471a-946c-72df517c801d","roots":{"p1795":"e0ca072c-073a-4bf8-9231-e7b9e033c7ba"},"root_ids":["p1795"]}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    let attempts = 0;
+    const timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+</script>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Pie-Chart-Example-with-Shark-Attack-Data">Pie Chart Example with Shark Attack Data<a class="anchor-link" href="#Pie-Chart-Example-with-Shark-Attack-Data">&#182;</a></h1><h3 id="Goal">Goal<a class="anchor-link" href="#Goal">&#182;</a></h3><p>Create a pie chart that showed the top ten countries with the most shark attacks and when you hover over a wedge, it tells you exactly how many attacks were recorded.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import libraries </span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># read in data</span>
+<span class="n">shark_attacks</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'../data/attacks.csv'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'latin-1'</span><span class="p">)</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+
+<span class="c1"># select subset of data we are interested in</span>
+<span class="n">shark_sub</span> <span class="o">=</span> <span class="n">shark_attacks</span><span class="p">[[</span><span class="s1">'Country'</span><span class="p">,</span> <span class="s1">'Type'</span><span class="p">,</span> <span class="s1">'Activity'</span><span class="p">]]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># prepare data for pie chart </span>
+<span class="n">shark_pie</span> <span class="o">=</span> <span class="n">shark_sub</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="n">pd</span><span class="o">.</span><span class="n">Grouper</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="s1">'Country'</span><span class="p">)])</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span> <span class="o">=</span> <span class="s1">'Activity'</span><span class="p">,</span> 
+                                                                                 <span class="n">ascending</span><span class="o">=</span> <span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c1"># top 10 countries </span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># set up bokeh plotting tools</span>
+<span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">pi</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="kn">from</span> <span class="nn">bokeh.palettes</span> <span class="kn">import</span> <span class="n">Category20c</span>
+<span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">show</span><span class="p">,</span> <span class="n">output_notebook</span>
+<span class="kn">from</span> <span class="nn">bokeh.transform</span> <span class="kn">import</span> <span class="n">cumsum</span><span class="p">,</span> <span class="n">factor_cmap</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">ColumnDataSource</span><span class="p">,</span> <span class="n">HoverTool</span>
+
+<span class="c1"># select source of data</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">shark_pie</span>
+
+<span class="c1"># Calculate the angles and add column for each country</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">'angle'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'Activity'</span><span class="p">]</span> <span class="o">/</span> <span class="n">df</span><span class="p">[</span><span class="s1">'Activity'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">pi</span>
+
+<span class="c1"># Add colors from Category20c palette and make new column </span>
+<span class="n">df</span><span class="p">[</span><span class="s1">'color'</span><span class="p">]</span> <span class="o">=</span> <span class="n">Category20c</span><span class="p">[</span><span class="mi">10</span><span class="p">]</span>
+
+<span class="c1"># Create figure</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">350</span><span class="p">,</span> 
+           <span class="n">title</span> <span class="o">=</span> <span class="s2">"Activity Distribution by Country"</span><span class="p">,</span> 
+           <span class="n">toolbar_location</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+           <span class="n">tooltips</span> <span class="o">=</span> <span class="s2">"@country: @activity"</span><span class="p">,</span> 
+           <span class="n">x_range</span><span class="o">=</span><span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">))</span>
+
+<span class="c1"># Create wedges</span>
+<span class="n">p</span><span class="o">.</span><span class="n">wedge</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mf">0.4</span><span class="p">,</span>
+        <span class="n">start_angle</span><span class="o">=</span><span class="n">cumsum</span><span class="p">(</span><span class="s1">'angle'</span><span class="p">,</span> <span class="c1"># set angle of slice</span>
+                           <span class="n">include_zero</span> <span class="o">=</span> <span class="kc">True</span><span class="p">),</span> 
+                           <span class="n">end_angle</span><span class="o">=</span><span class="n">cumsum</span><span class="p">(</span><span class="s1">'angle'</span><span class="p">),</span> <span class="c1"># set angle of slice </span>
+        <span class="n">line_color</span> <span class="o">=</span> <span class="s1">'white'</span><span class="p">,</span> 
+        <span class="n">fill_color</span> <span class="o">=</span> <span class="s1">'color'</span><span class="p">,</span> 
+        <span class="n">legend_field</span> <span class="o">=</span> <span class="s1">'Country'</span><span class="p">,</span> 
+        <span class="n">source</span> <span class="o">=</span> <span class="n">df</span><span class="p">)</span> <span class="c1"># source of the data</span>
+
+<span class="c1"># hover tool to see what country</span>
+<span class="n">hover</span> <span class="o">=</span> <span class="n">HoverTool</span><span class="p">(</span><span class="n">tooltips</span><span class="o">=</span><span class="p">[(</span><span class="s1">'Country'</span><span class="p">,</span> <span class="s1">'@Country'</span> <span class="s1">' - @Activity'</span><span class="p">)])</span> <span class="c1"># make sure @ matches the column name in dataframe</span>
+<span class="n">p</span><span class="o">.</span><span class="n">add_tools</span><span class="p">(</span><span class="n">hover</span><span class="p">)</span>
+
+<span class="c1"># remove axes</span>
+<span class="n">p</span><span class="o">.</span><span class="n">axis</span><span class="o">.</span><span class="n">axis_label</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="n">p</span><span class="o">.</span><span class="n">axis</span><span class="o">.</span><span class="n">visible</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">p</span><span class="o">.</span><span class="n">grid</span><span class="o">.</span><span class="n">grid_line_color</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="n">p</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="s2">"Top 10 Countries for Shark Attacks"</span>
+
+<span class="n">show</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+
+  <div id="dd9fd3ef-608c-4b4a-8c6b-0bd39c0b658b" data-root-id="p1806" style="display: contents;"></div>
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+<div id="e7bc942e-11a9-42b2-8f53-337185965b37" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<script type="text/javascript">
+var element = document.getElementById('e7bc942e-11a9-42b2-8f53-337185965b37');
+(function(root) {
+  function embed_document(root) {
+  const docs_json = {"01a89d8d-ae4a-41d7-9aac-40a6de75f475":{"version":"3.2.1","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1806","attributes":{"height":350,"x_range":{"type":"object","name":"Range1d","id":"p1816","attributes":{"start":-0.5}},"y_range":{"type":"object","name":"DataRange1d","id":"p1808"},"x_scale":{"type":"object","name":"LinearScale","id":"p1817"},"y_scale":{"type":"object","name":"LinearScale","id":"p1818"},"title":{"type":"object","name":"Title","id":"p1854","attributes":{"text":"Top 10 Countries for Shark Attacks"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1848","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1839","attributes":{"selected":{"type":"object","name":"Selection","id":"p1840","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1841"},"data":{"type":"map","entries":[["Country",{"type":"ndarray","array":["USA","AUSTRALIA","SOUTH AFRICA","BAHAMAS","NEW ZEALAND","REUNION","BRAZIL","MEXICO","PAPUA NEW GUINEA","NEW CALEDONIA"],"shape":[10],"dtype":"object","order":"little"}],["Type",{"type":"ndarray","array":{"type":"bytes","data":"tQIAAC8BAADZAAAAGgAAABQAAAAPAAAADgAAAA0AAAAMAAAACgAAAA=="},"shape":[10],"dtype":"int32","order":"little"}],["Activity",{"type":"ndarray","array":{"type":"bytes","data":"tQIAAC8BAADZAAAAGgAAABQAAAAPAAAADgAAAA0AAAAMAAAACgAAAA=="},"shape":[10],"dtype":"int32","order":"little"}],["angle",{"type":"ndarray","array":{"type":"bytes","data":"e/5roVxUCkAtvGtSKwb3P91Ez5g8ffA/cJqVIlOcvz8unhB93VC4P6J2zB2mPLI/7aGL12cFsT9wmpUiU5yvPwTxE5bWLa0/Lp4Qfd1QqD8="},"shape":[10],"dtype":"float64","order":"little"}],["color",{"type":"ndarray","array":["#3182bd","#6baed6","#9ecae1","#c6dbef","#e6550d","#fd8d3c","#fdae6b","#fdd0a2","#31a354","#74c476"],"shape":[10],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1849","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1850"}}},"glyph":{"type":"object","name":"Wedge","id":"p1845","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":1},"radius":{"type":"value","value":0.4},"start_angle":{"type":"expr","expr":{"type":"object","name":"CumSum","id":"p1837","attributes":{"field":"angle","include_zero":true}}},"end_angle":{"type":"expr","expr":{"type":"object","name":"CumSum","id":"p1838","attributes":{"field":"angle"}}},"line_color":{"type":"value","value":"white"},"fill_color":{"type":"field","field":"color"}}},"nonselection_glyph":{"type":"object","name":"Wedge","id":"p1846","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":1},"radius":{"type":"value","value":0.4},"start_angle":{"type":"expr","expr":{"id":"p1837"}},"end_angle":{"type":"expr","expr":{"id":"p1838"}},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"color"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Wedge","id":"p1847","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":1},"radius":{"type":"value","value":0.4},"start_angle":{"type":"expr","expr":{"id":"p1837"}},"end_angle":{"type":"expr","expr":{"id":"p1838"}},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"color"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1815","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1829"},{"type":"object","name":"WheelZoomTool","id":"p1830"},{"type":"object","name":"BoxZoomTool","id":"p1831","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1832","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p1833"},{"type":"object","name":"ResetTool","id":"p1834"},{"type":"object","name":"HelpTool","id":"p1835"},{"type":"object","name":"HoverTool","id":"p1836","attributes":{"renderers":"auto","tooltips":"@country: @activity"}},{"type":"object","name":"HoverTool","id":"p1853","attributes":{"renderers":"auto","tooltips":[["Country","@Country - @Activity"]]}}]}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p1824","attributes":{"visible":false,"ticker":{"type":"object","name":"BasicTicker","id":"p1825","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1826"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1827"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1819","attributes":{"visible":false,"ticker":{"type":"object","name":"BasicTicker","id":"p1820","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1821"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1822"}}}],"center":[{"type":"object","name":"Grid","id":"p1823","attributes":{"axis":{"id":"p1819"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1828","attributes":{"dimension":1,"axis":{"id":"p1824"},"grid_line_color":null}},{"type":"object","name":"Legend","id":"p1851","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p1852","attributes":{"label":{"type":"field","field":"Country"},"renderers":[{"id":"p1848"}]}}]}}]}}]}};
+  const render_items = [{"docid":"01a89d8d-ae4a-41d7-9aac-40a6de75f475","roots":{"p1806":"dd9fd3ef-608c-4b4a-8c6b-0bd39c0b658b"},"root_ids":["p1806"]}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    let attempts = 0;
+    const timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+</script>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Check-out-our-plots-on-the-web-page-we-created-with-Github-Pages!">Check out our plots on the web page we created with Github Pages!<a class="anchor-link" href="#Check-out-our-plots-on-the-web-page-we-created-with-Github-Pages!">&#182;</a></h2><p><a href="https://lunacatalan.github.io/bokeh-how-to/">https://lunacatalan.github.io/bokeh-how-to/</a></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Advantages-&amp;-Disadvantages?"><strong>Advantages &amp; Disadvantages?</strong><a class="anchor-link" href="#Advantages-&amp;-Disadvantages?">&#182;</a></h4><h3 id="Bokeh-vs.-Plotly">Bokeh vs. Plotly<a class="anchor-link" href="#Bokeh-vs.-Plotly">&#182;</a></h3><h4 id="Advantages-of-Bokeh:">Advantages of Bokeh:<a class="anchor-link" href="#Advantages-of-Bokeh:">&#182;</a></h4><ul>
+<li>keeps it simple, no compatibility with other languages = streamlined environment  </li>
+<li>privacy control </li>
+<li>more color palette customization </li>
+<li>dynamic and faster Dashboards</li>
+<li>Bokeh offers an option to embed our visualization in the web pages.
+#### Disadvantages of Bokeh: </li>
+<li>only in Python, no compatibility with other languages</li>
+<li>no 3D plotting </li>
+<li>degree of interactivity is limited </li>
+</ul>
+
+</div>
+</div>
+</div>
 </div>
 </body>
 
